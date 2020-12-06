@@ -1,12 +1,11 @@
-package main
+package server
 
 import (
 	"github.com/gin-gonic/gin"
-	"wx_api/server/router.go"
 )
 
-func main() {
+func Serve() {
 	r := gin.Default()
-	router.
+	router(r)
 	r.Run("127.0.0.1:5021")
 }

@@ -1,12 +1,22 @@
-package main
+package server
 
-import "github.com/gin-gonic/gin"
+import (
+	"github.com/gin-gonic/gin"
+	"wx_api/method"
+)
 
-func route("") {
+func router(r *gin.Engine) {
+	// 测试接口
 	r.GET("/ping", func(c *gin.Context) {
 		c.JSON(200, gin.H{
 			"message": "pong",
 		})
 	})
-	r.Run("127.0.0.1:5021")
+
+	// common
+	common := r.Group("common")
+	{
+		common.POST("/token", method.AccessToken)
+	}
+
 }
