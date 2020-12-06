@@ -14,9 +14,9 @@ func router(r *gin.Engine) {
 	})
 
 	// common
-	common := r.Group("common")
+	common := r.Group("/common")
 	{
-		common.POST("/token", method.AccessToken)
+		common.GET("/token", method.AccessToken)
 	}
 
 }
