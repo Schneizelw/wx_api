@@ -23,16 +23,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1eb7f6b3-3696-4c3a-b5b2-d1bc3242b3f6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/common/const.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/error.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/request.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/base.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/method/common_access_token.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/check.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/common.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/event.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/msg.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/method/auth_redirect.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/method/menu_create.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/method/postback_check_server.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/method/postback_event_click_v0001.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/method/postback_event_click_v0002.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/method/postback_event_subscribe.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/method/postback_event_unsubscribe.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/method/postback_msg_image.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/method/postback_msg_text.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/util/utils.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/const.go" beforeDir="false" afterPath="$PROJECT_DIR$/common/const.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/error.go" beforeDir="false" afterPath="$PROJECT_DIR$/common/error.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/request.go" beforeDir="false" afterPath="$PROJECT_DIR$/common/request.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/method/common_access_token.go" beforeDir="false" afterPath="$PROJECT_DIR$/method/common_access_token.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/router.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/router.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/server.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/server.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,14 +92,27 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
   </component>
   <component name="WindowStateProjectService">
+    <state x="2352" y="205" key="#Deployment" timestamp="1607324596286">
+      <screen x="1792" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2352" y="205" key="#Deployment/1792.0.1920.1080/0.0.1792.1120@1792.0.1920.1080" timestamp="1607324596286" />
+    <state x="2336" y="192" key="#SSH_Configurations" timestamp="1607324541458">
+      <screen x="1792" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2336" y="192" key="#SSH_Configurations/1792.0.1920.1080/0.0.1792.1120@1792.0.1920.1080" timestamp="1607324541458" />
     <state x="2253" y="179" key="SettingsEditor" timestamp="1607256828171">
       <screen x="1792" y="0" width="1920" height="1080" />
     </state>
     <state x="2253" y="179" key="SettingsEditor/1792.0.1920.1080/0.0.1792.1120@1792.0.1920.1080" timestamp="1607256828171" />
+    <state x="2659" y="277" width="424" height="525" key="ftp.server.browser" timestamp="1607324594607">
+      <screen x="1792" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2659" y="277" width="424" height="525" key="ftp.server.browser/1792.0.1920.1080/0.0.1792.1120@1792.0.1920.1080" timestamp="1607324594607" />
   </component>
 </project>
